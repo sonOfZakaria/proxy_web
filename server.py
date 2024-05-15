@@ -30,7 +30,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             print(f"Message incomplet reçu {decryptedMsg!r}")
             
             #message complet
-            msg = decryptedMsg+"World!"
+            msg = decryptedMsg+"les SNI!!"
             print(f"Message complet envoyer {msg!r} chiffrer")
             
             #encryption
